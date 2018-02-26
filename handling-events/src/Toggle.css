@@ -1,0 +1,16 @@
+button {
+  font-size: 30px;
+  padding: 10px 20px;
+  border: none;
+  background: linear-gradient(50deg, red, blue, green);
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px gold;
+  transform: translateY(-10px);
+  padding: 20px 50px;
+  font-size: 32px;
+}

@@ -1,0 +1,28 @@
+body {
+  margin: 100px 20px;
+}
+
+.conditional {
+  margin-top: 150px;
+}
+
+.warning {
+  margin-top: 100px;
+}
+
+.warning__message {
+  font-size: 40px;
+  color: red;
+  margin: 20px;
+  text-shadow: 0 0 20px #333;
+  transform: translateY(-100vh);
+}
+
+.warning__show {
+  font-size: 40px;
+  color: red;
+  margin: 20px;
+  text-shadow: 0 0 20px #333;
+  transform: translateY(0);
+  transition-duration: 1000ms;
+}

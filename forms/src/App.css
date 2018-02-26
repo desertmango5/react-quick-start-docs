@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  margin: 50px;
+}
+
+.nameform,
+.essayform,
+.flavorform {
+  margin-top: 50px;
+}
+
+.button__submit {
+  margin: 10px;
+}
+
