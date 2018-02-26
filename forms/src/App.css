@@ -5,11 +5,39 @@
 
 .nameform,
 .essayform,
-.flavorform {
+.flavorform,
+.reservation {
   margin-top: 50px;
+  background: #eee;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+select,
+input,
+textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+select,
+input {
+  padding: 5px;
 }
 
 .button__submit {
   margin: 10px;
+  background: lightgoldenrodyellow;
+  font-size: 12px;
+  padding: 5px 15px;
 }
 
+.button__submit:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 2px #aaa;
+}
+
+.reservation__label > * {
+  margin: 10px;
+}

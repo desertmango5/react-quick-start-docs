@@ -3,6 +3,7 @@ import './App.css';
 import NameForm from './NameForm';
 import EssayForm from './EssayForm';
 import FlavorForm from './FlavorForm';
+import Reservation from './Reservation';
 
 class App extends Component {
   render() {
@@ -18,6 +19,9 @@ class App extends Component {
         </div>
         <div className="flavorform">
           <FlavorForm />
+        </div>
+        <div className="reservation">
+          <Reservation />
         </div>
       </div>
     );
