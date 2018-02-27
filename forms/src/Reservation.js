@@ -16,6 +16,7 @@ class Reservation extends React.Component {
     const value = target.type === 'checkbox' ? target.checked : target.value;
     const name = target.name;
 
+    // will partially update state of any element with a 'name' attribute
     this.setState({
       [name]: value
     });
